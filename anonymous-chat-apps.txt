@@ -1,0 +1,25 @@
+// A list of concerning anonymous / online chat apps to block.
+
+chitchat.gg
+emeraldchat.com
+holla.world
+instachatrooms.com
+kik.com
+livu.me
+meetoutside.com
+meetyou.me
+monkey.app
+ome-i.com
+ome.TV
+ome.tv
+omega.app
+omegla.live
+omegle.cc
+omegle.chat
+omegle.life
+omegle.onl
+omegle.online
+omegleapp.me
+shagle.com
+skout.com
+uhmegle.com

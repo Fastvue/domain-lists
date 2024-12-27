@@ -1,0 +1,67 @@
+// When enabling Deep Packet Inspection (DPI) / SSL Decryption on your firewall, you may encounter issues with certain Google applications or services, such as Google Drive.
+// Exclude the following list of domains from SSL decryption to avoid these issues, while keeping most of Google and YouTube activity going through DPI.  
+// Do NOT exclude *.google.com, or www.google.com, *.youtube.com or www.youtube.com.
+
+// Google Sign-in
+accounts.google.com
+accounts.google.[country] //e.g. accounts.google.co.uk
+ssl.gstatic.com
+www.gstatic.com
+www.googleapis.com
+
+// Google Enrollment
+accounts.gstatic.com
+alt*.gstatic.com
+chromeos-ca.gstatic.com
+clients3.google.com
+connectivitycheck.gstatic.com
+m.google.com
+www.gstatic.com
+
+// Google Auto Update
+tools.google.com	
+edgedl.me.gvt1.com
+dl.google.com
+
+// Google in-app functionality
+*.googleapis.com
+
+// If you're still having issues, exclude the following:
+*.1e100.net1
+*.googleusercontent.com
+*.gstatic.com
+*.ggpht.com
+*.gvt1.com
+*.gvt2.com
+*.gvt3.com
+
+// As well as the following .google.com sub-domains:
+android.clients.google.com
+chrome.google.com
+clients1.google.com
+clients2.google.com
+clients3.google.com
+clients4.google.com
+clients5.google.com
+clients6.google.com
+dl-ssl.google.com
+dl.google.com
+m.google.com
+mtalk.google.com
+pack.google.com
+pki.google.com
+play.google.com
+policies.google.com
+safebrowsing-cache.google.com
+safebrowsing.google.com
+sb-ssl.google.com
+scone-pa.clients6.google.com
+
+// Other domains mentioned by google for specific issues:
+accounts.youtube.com
+connectivitycheck.android.com
+cros-omahaproxy.appspot.com
+gweb-gettingstartedguide.appspot.com
+omahaproxy.appspot.com
+youtubeeducation.com
+
